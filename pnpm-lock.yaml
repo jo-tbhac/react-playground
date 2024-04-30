@@ -17,6 +17,9 @@ importers:
       '@emotion/styled':
         specifier: ^11.11.5
         version: 11.11.5(@emotion/react@11.11.4(react@19.0.0-beta-94eed63c49-20240425)(types-react@19.0.0-alpha.5))(react@19.0.0-beta-94eed63c49-20240425)(types-react@19.0.0-alpha.5)
+      '@fontsource/noto-sans-jp':
+        specifier: ^5.0.19
+        version: 5.0.19
       framer-motion:
         specifier: ^11.1.7
         version: 11.1.7(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0-beta-94eed63c49-20240425(react@19.0.0-beta-94eed63c49-20240425))(react@19.0.0-beta-94eed63c49-20240425)
@@ -26,6 +29,9 @@ importers:
       react-dom:
         specifier: 19.0.0-beta-94eed63c49-20240425
         version: 19.0.0-beta-94eed63c49-20240425(react@19.0.0-beta-94eed63c49-20240425)
+      wouter:
+        specifier: ^3.1.2
+        version: 3.1.2(react@19.0.0-beta-94eed63c49-20240425)
     devDependencies:
       '@biomejs/biome':
         specifier: 1.7.1
@@ -880,6 +886,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource/noto-sans-jp@5.0.19':
+    resolution: {integrity: sha512-N0KUmSqX6tlAlnqFQnDywj9e+4RithtLgFGlcRt/85EI8rmDYJFYQCZVhc+xTIk5Kgr1gLtNToHZzK61BTsWqw==}
+
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
     engines: {node: '>=6.0.0'}
@@ -1341,6 +1350,9 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
+  mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
+
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
@@ -1470,6 +1482,10 @@ packages:
   regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
 
+  regexparam@3.0.0:
+    resolution: {integrity: sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==}
+    engines: {node: '>=8'}
+
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
@@ -1594,6 +1610,11 @@ packages:
       '@types/react':
         optional: true
 
+  use-sync-external-store@1.2.2:
+    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+
   vite-plugin-checker@0.6.4:
     resolution: {integrity: sha512-2zKHH5oxr+ye43nReRbC2fny1nyARwhxdm0uNYp/ERy4YvU9iZpNOsueoi/luXw5gnpqRSvjcEPxXbS153O2wA==}
     engines: {node: '>=14.16'}
@@ -1676,6 +1697,11 @@ packages:
 
   vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
+
+  wouter@3.1.2:
+    resolution: {integrity: sha512-oyYrbwnIbal7Hz6LzeqRoyWFEkNA64SCmF9r48f6hkUcLnT0y0o+hthuT1X1OIbj80YBT9zE+mH4GYUWH98nIg==}
+    peerDependencies:
+      react: '>=16.8.0'
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -2718,6 +2744,8 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
+  '@fontsource/noto-sans-jp@5.0.19': {}
+
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
       '@jridgewell/set-array': 1.2.1
@@ -3153,6 +3181,8 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.11
 
+  mitt@3.0.1: {}
+
   ms@2.1.2: {}
 
   nanoid@3.3.7: {}
@@ -3265,6 +3295,8 @@ snapshots:
       picomatch: 2.3.1
 
   regenerator-runtime@0.14.1: {}
+
+  regexparam@3.0.0: {}
 
   resolve-from@4.0.0: {}
 
@@ -3379,6 +3411,10 @@ snapshots:
     optionalDependencies:
       '@types/react': types-react@19.0.0-alpha.5
 
+  use-sync-external-store@1.2.2(react@19.0.0-beta-94eed63c49-20240425):
+    dependencies:
+      react: 19.0.0-beta-94eed63c49-20240425
+
   vite-plugin-checker@0.6.4(typescript@5.2.2)(vite@5.2.10):
     dependencies:
       '@babel/code-frame': 7.24.2
@@ -3430,6 +3466,13 @@ snapshots:
       vscode-languageserver-protocol: 3.16.0
 
   vscode-uri@3.0.8: {}
+
+  wouter@3.1.2(react@19.0.0-beta-94eed63c49-20240425):
+    dependencies:
+      mitt: 3.0.1
+      react: 19.0.0-beta-94eed63c49-20240425
+      regexparam: 3.0.0
+      use-sync-external-store: 1.2.2(react@19.0.0-beta-94eed63c49-20240425)
 
   yallist@3.1.1: {}
 
