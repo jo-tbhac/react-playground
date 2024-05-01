@@ -2,7 +2,7 @@ import { theme as chakraTheme, extendBaseTheme } from '@chakra-ui/react'
 
 import '@fontsource/noto-sans-jp'
 
-const { Link, FormLabel, Input, Textarea, Button, Card } = chakraTheme.components
+const { Link, FormLabel, Input, Textarea, Button, Card, Radio, Progress } = chakraTheme.components
 
 export const theme = extendBaseTheme({
   fonts: {
@@ -33,6 +33,8 @@ export const theme = extendBaseTheme({
     FormLabel,
     Input,
     Link,
+    Progress,
+    Radio,
     Textarea
   }
 })

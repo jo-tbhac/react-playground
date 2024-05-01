@@ -1,4 +1,5 @@
 export const path = {
   actions: '/actions',
-  transitions: '/transitions'
+  transitions: '/transitions',
+  use: '/use'
 } as const
