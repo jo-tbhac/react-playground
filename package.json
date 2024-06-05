@@ -18,6 +18,7 @@
     "@types/react": "npm:types-react@beta",
     "@types/react-dom": "npm:types-react-dom@beta",
     "@vitejs/plugin-react": "^4.2.1",
+    "babel-plugin-react-compiler": "0.0.0-experimental-938cd9a-20240601",
     "eslint-plugin-react-compiler": "0.0.0-experimental-c8b3f72-20240517",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
