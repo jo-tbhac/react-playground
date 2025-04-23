@@ -19,7 +19,6 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.2.1",
     "babel-plugin-react-compiler": "19.1.0-rc.1",
-    "eslint-plugin-react-compiler": "0.0.0-experimental-c8b3f72-20240517",
     "eslint-plugin-react-hooks": "^6.0.0-rc.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
