@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.2.1",
     "babel-plugin-react-compiler": "19.1.0-rc.1",
     "eslint-plugin-react-compiler": "0.0.0-experimental-c8b3f72-20240517",
@@ -31,8 +31,8 @@
     "@emotion/styled": "^11.11.5",
     "@fontsource/noto-sans-jp": "^5.0.19",
     "framer-motion": "^11.1.7",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "swr": "^2.2.5",
     "wouter": "^3.1.2"
   },
