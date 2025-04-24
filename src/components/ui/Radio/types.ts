@@ -1,7 +1,9 @@
-import type {
-  RadioGroupProps as ChakraRadioGroupProps,
-  RadioProps as ChakraRadioProps
-} from '@chakra-ui/react'
+import type { RadioGroup as ChakraRadioGroup, RadioGroupRootProps } from '@chakra-ui/react'
+import type { InputHTMLAttributes, RefObject } from 'react'
 
-export type RadioGroupProps = ChakraRadioGroupProps
-export type RadioProps = ChakraRadioProps
+export interface RadioProps extends ChakraRadioGroup.ItemProps {
+  rootRef?: RefObject<HTMLDivElement | null>
+  inputProps?: InputHTMLAttributes<HTMLInputElement>
+}
+
+export type { RadioGroupRootProps }

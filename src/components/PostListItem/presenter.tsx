@@ -16,7 +16,7 @@ export const PostListItemPresenter: FC<PostListItemPresenterProps> = ({
         <Text fontWeight="bold">{title}</Text>
       </CardHeader>
       <CardBody overflow="hidden">
-        <Text noOfLines={3}>{body}</Text>
+        <Text lineClamp={3}>{body}</Text>
       </CardBody>
       {isSending && (
         <CardFooter>

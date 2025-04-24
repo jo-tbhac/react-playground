@@ -1,8 +1,8 @@
-import { ChakraBaseProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 import type { FC, PropsWithChildren } from 'react'
 
-import { theme } from './theme'
+import { system } from './theme'
 
 export const ThemeProvider: FC<PropsWithChildren> = ({ children }) => {
-  return <ChakraBaseProvider theme={theme}>{children}</ChakraBaseProvider>
+  return <ChakraProvider value={system}>{children}</ChakraProvider>
 }

@@ -89,13 +89,13 @@ export const ActionsPagePresenter: FC = () => {
             {formErrors.body && <FormErrorMessage>{formErrors.body}</FormErrorMessage>}
           </Box>
           <Box display="flex" gap={3} mb={6}>
-            <Button colorScheme="blue" type="submit" isLoading={isPending}>
+            <Button colorPalette="blue" type="submit" loading={isPending}>
               Create
             </Button>
-            <Button isDisabled={isPending} type="submit" formAction={handlePreview}>
+            <Button variant="outline" disabled={isPending} type="submit" formAction={handlePreview}>
               Preview
             </Button>
-            <Button isDisabled={isPending} type="button" onClick={handleResetForm}>
+            <Button variant="outline" disabled={isPending} type="button" onClick={handleResetForm}>
               Reset
             </Button>
           </Box>
