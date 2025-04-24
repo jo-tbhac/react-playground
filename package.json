@@ -10,17 +10,22 @@
     "preview": "vite preview",
     "lint:check": "biome lint ./src",
     "format:check": "biome format ./src",
-    "eslint": "npx eslint@8",
+    "eslint": "pnpm dlx eslint",
     "compiler:check": "npx react-compiler-healthcheck"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
+    "@eslint/js": "^9.25.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.2.1",
     "babel-plugin-react-compiler": "19.1.0-rc.1",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^6.0.0-rc.1",
+    "globals": "^16.0.0",
     "typescript": "^5.2.2",
+    "typescript-eslint": "^8.31.0",
     "vite": "^5.2.0",
     "vite-plugin-checker": "^0.6.4"
   },
