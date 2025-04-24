@@ -1,5 +1,6 @@
 import { useActionState, useOptimistic, useRef, useState } from 'react'
 import type { FC } from 'react'
+import { startTransition } from 'react'
 import { requestFormReset } from 'react-dom'
 
 import { PostListItem } from '@/components/PostListItem'
@@ -68,10 +69,12 @@ export const ActionsPagePresenter: FC = () => {
   }
 
   const handleResetForm = () => {
-    if (formRef.current) {
-      requestFormReset(formRef.current)
-      setPreview(null)
-    }
+    startTransition(() => {
+      if (formRef.current) {
+        requestFormReset(formRef.current)
+        setPreview(null)
+      }
+    })
   }
 
   return (
