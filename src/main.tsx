@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { App } from './App.tsx'
 
-const conatiner = document.getElementById('root')
+const container = document.getElementById('root')
 
-if (conatiner) {
-  ReactDOM.createRoot(conatiner).render(
+if (container) {
+  ReactDOM.createRoot(container).render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
