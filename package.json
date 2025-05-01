@@ -8,6 +8,7 @@
     "react19": "pnpm -F \"react19\"",
     "experimental": "pnpm -F \"experimental\"",
     "react19:dev": "pnpm react19 dev",
+    "experimental:dev": "pnpm experimental dev",
     "react19:lint:check": "pnpm react19 lint:check",
     "react19:format:check": "pnpm react19 format:check",
     "react19:type:check": "pnpm react19 type:check"
