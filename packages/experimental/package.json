@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/roboto-mono": "^5.2.5",
     "react": "0.0.0-experimental-408d055a-20250430",
     "react-dom": "0.0.0-experimental-408d055a-20250430"
   },

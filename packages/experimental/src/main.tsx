@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
+import '@fontsource-variable/roboto-mono'
+
 const container = document.getElementById('root')
 
 if (container) {

@@ -14,6 +14,9 @@ importers:
 
   packages/experimental:
     dependencies:
+      '@fontsource-variable/roboto-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
       react:
         specifier: 0.0.0-experimental-408d055a-20250430
         version: 0.0.0-experimental-408d055a-20250430
@@ -677,6 +680,9 @@ packages:
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
+
+  '@fontsource-variable/roboto-mono@5.2.5':
+    resolution: {integrity: sha512-JsvF7AvjgqGBKCtVuBE5rdYrTdx8yY61Ralo0n6wnlWLCtYAHnj7NjHmpWWvSq9ROKByRfropM7VyeO0a66M3Q==}
 
   '@fontsource/noto-sans-jp@5.2.5':
     resolution: {integrity: sha512-ISoJUQlsuSo4y56P+eJD+g022BRAF1BC2uCyEFGRsob0g8VvQAoWNMlWh+P0VQw68QzZHHj41zRzeRFpzAdA7w==}
@@ -2943,6 +2949,8 @@ snapshots:
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/utils@0.2.9': {}
+
+  '@fontsource-variable/roboto-mono@5.2.5': {}
 
   '@fontsource/noto-sans-jp@5.2.5': {}
 
